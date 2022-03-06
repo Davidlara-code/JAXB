@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Profesores>
+    <estudiantes>
+        <estudiante id="1">
+            <nombre>Adrian</nombre>
+            <apellidos>MCith</apellidos>
+            <edad>32</edad>
+            <direccion>
+                <nombreVia>Avenida Concha Espina, Madrid</nombreVia>
+                <numero>1</numero>
+                <cp>28036</cp>
+            </direccion>
+        </estudiante>
+        <estudiante id="2">
+            <nombre>David	</nombre>
+            <apellidos>Lara</apellidos>
+            <edad>37</edad>
+            <direccion>
+                <nombreVia>Avda.Asturias , Alcorcon</nombreVia>
+                <numero>6</numero>
+                <cp>28900</cp>
+            </direccion>
+        </estudiante>
+        <estudiante id="3">
+            <nombre>Javier</nombre>
+            <apellidos>Sombrilla</apellidos>
+            <edad>29</edad>
+            <direccion>
+                <nombreVia>AVDA.Montaña , Madrid</nombreVia>
+                <numero>3</numero>
+                <cp>28666</cp>
+            </direccion>
+        </estudiante>
+        <estudiante id="4">
+            <nombre>Alejandro</nombre>
+            <apellidos>Hermosilla</apellidos>
+            <edad>35</edad>
+            <direccion>
+                <nombreVia>Calle Europa , Leganes</nombreVia>
+                <numero>1</numero>
+                <cp>28911</cp>
+            </direccion>
+        </estudiante>
+        <estudiante id="5">
+            <nombre>Raquel</nombre>
+            <apellidos>Spencer</apellidos>
+            <edad>28</edad>
+            <direccion>
+                <nombreVia>Calle Sepulveda , Getafe</nombreVia>
+                <numero>12</numero>
+                <cp>28678</cp>
+            </direccion>
+        </estudiante>
+    </estudiantes>
+    <comunidad_Autonoma>Madrid</comunidad_Autonoma>
+    <nombre>Felix</nombre>
+</Profesores>

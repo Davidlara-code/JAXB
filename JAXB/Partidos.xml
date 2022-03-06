@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Estadios>
+    <comunidad_Autonoma>Madrid</comunidad_Autonoma>
+    <Equipos>
+        <Equipo clasificacion="1">
+            <nombre>Real Madrid</nombre>
+            <puntos>36</puntos>
+            <direccion>
+                <nombreVia>Avenida Concha Espina, Madrid</nombreVia>
+                <numero>1</numero>
+                <cp>28036</cp>
+            </direccion>
+        </Equipo>
+        <Equipo clasificacion="2">
+            <nombre>Alcorcon</nombre>
+            <puntos>33</puntos>
+            <direccion>
+                <nombreVia>Avda.Asturias , Alcorcon</nombreVia>
+                <numero>6</numero>
+                <cp>28900</cp>
+            </direccion>
+        </Equipo>
+        <Equipo clasificacion="3">
+            <nombre>Atletico de Madrid</nombre>
+            <puntos>30</puntos>
+            <direccion>
+                <nombreVia>AVDA.Montaña , Madrid</nombreVia>
+                <numero>3</numero>
+                <cp>28666</cp>
+            </direccion>
+        </Equipo>
+        <Equipo clasificacion="4">
+            <nombre>Leganes</nombre>
+            <puntos>25</puntos>
+            <direccion>
+                <nombreVia>Calle Europa , Leganes</nombreVia>
+                <numero>1</numero>
+                <cp>28911</cp>
+            </direccion>
+        </Equipo>
+        <Equipo clasificacion="5">
+            <nombre>Getafe FC</nombre>
+            <puntos>23</puntos>
+            <direccion>
+                <nombreVia>Calle Sepulveda , Getafe</nombreVia>
+                <numero>12</numero>
+                <cp>28678</cp>
+            </direccion>
+        </Equipo>
+    </Equipos>
+</Estadios>

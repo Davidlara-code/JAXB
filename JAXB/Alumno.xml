@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alumno id="1">
+    <nombre>javier</nombre>
+    <apellidos>alcaser</apellidos>
+    <edad>34</edad>
+    <direccion>
+        <nombreVia>Gran Via</nombreVia>
+        <numero>3</numero>
+        <cp>28567</cp>
+    </direccion>
+</alumno>

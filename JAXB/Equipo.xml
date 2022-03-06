@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipo clasificacion="12">
+    <nombre>Fuenlabrada</nombre>
+    <puntos>10</puntos>
+    <direccion>
+        <nombreVia>Gran Via</nombreVia>
+        <numero>3</numero>
+        <cp>28567</cp>
+    </direccion>
+</equipo>
