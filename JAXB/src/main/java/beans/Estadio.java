@@ -11,7 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 	@XmlRootElement(name = "Estadios")
 	public class Estadio {
-		//private String nombre;
+	
 		private String Comunidad_Autonoma;
 		private List<Equipo> equipos;
 
@@ -19,15 +19,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 			equipos = new ArrayList<Equipo>();
 		}
 
-		// Establezco que cada elemento del array se serialice a una etiqueta xml cuyo
-		// nombre
-		// sea "persona"
+		
+
 		@XmlElement(name = "Equipo")
-		// Podemos crear una etiqueta que envuelva las etiquetas persona, si no la
-		// ponemos saldran
-		// las etiquetas "persona" al mismo nivel que la familia, de esta manera
-		// agrupamos todos
-		// los "miembro" en la etiqueta "miembros"
+		
 		@XmlElementWrapper(name = "Equipos")
 		public List<Equipo> getEquipos() {
 			return equipos;

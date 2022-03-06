@@ -30,8 +30,7 @@ public class Alumno {
 		this.edad = edad;
 	}
 
-	// etiqueta que hace que el id de la persona se serialize como atributo de
-	// persona
+	
 	// etiqueta opcional
 	@XmlAttribute(name = "id")
 	public int getIdAlumno() {

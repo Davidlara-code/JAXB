@@ -18,15 +18,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 		alumnos = new ArrayList<Alumno>();
 	}
 
-	// Establezco que cada elemento del array se serialice a una etiqueta xml cuyo
-	// nombre
+	
 	// sea "estudiante"
 	@XmlElement(name = "estudiante")
-	// Podemos crear una etiqueta que envuelva las etiquetas persona, si no la
-	// ponemos saldran
-	// las etiquetas "persona" al mismo nivel que la familia, de esta manera
-	// agrupamos todos
-	// los "miembro" en la etiqueta "miembros"
+	
 	@XmlElementWrapper(name = "estudiantes")
 	public List<Alumno> getAlumnos() {
 		return alumnos;

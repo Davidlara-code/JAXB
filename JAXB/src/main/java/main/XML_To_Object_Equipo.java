@@ -17,14 +17,7 @@ public class XML_To_Object_Equipo {
 	public static void main(String[] args) {
 		JAXBContext contexto;
 		try {
-			/*
-			 * Obtiene el contexto asociado a la clase Persona, con dicho
-			 * contexto podremos convertir el objeto a un xml y a la inversa. 
-			 * Provoca una excepción de tipo JAXBException si la clase Persona 
-			 * no cumple los requisitos para la conversión a XML, es decir, 
-			 * contener las anotaciones necesarias y no cuenta con un constructor 
-			 * sin argumentos.
-			 */
+			
 			 contexto = JAXBContext.newInstance(Equipo.class);
 		} catch (JAXBException e) {
 			System.out.println("Error creando el contexto");
@@ -49,7 +42,7 @@ public class XML_To_Object_Equipo {
 			 */
 			m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			
-			//creamos la persona y su direccion
+			//creamos el Equipo y su direccion
 			Equipo p = new Equipo(12, "Fuenlabrada", 10);
 			Direccion direccion = new Direccion();
 			direccion.setNombreVia("Gran Via");

@@ -37,8 +37,7 @@ public class Equipo {
 		this.puntos = puntos;
 	}
 
-	// etiqueta que hace que el id de la persona se serialize como atributo de
-	// persona
+	
 	// etiqueta opcional
 	@XmlAttribute(name = "clasificacion")
 	public int getClasificacion() {
